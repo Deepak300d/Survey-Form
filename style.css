@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+label{
+    font-size: 1.125rem;  
+} 
+input{
+    margin: 10px 10px;
+    padding: 10px 10px;
+}
+.box1{
+    font-style: 'Poppins',sans-serif;
+    display: flex;
+    display: flex;
+    text-align: start;
+    padding: 20px;
+    flex-direction: column;
+}
+.box2{
+    font-style: 'Poppins', sans-serif;
+    display: flex;
+    text-align: start;
+    padding: 20px;
+    flex-direction: column;
+
+}
+.box3{
+    font-style: 'Poppins', sans-serif;
+    display: flex;
+    text-align: start;
+    flex-direction: column;
+}
+
+.box4{
+    font-style: 'Poppins', sans-serif;
+    display: flex; 
+    text-align: start;
+    padding: 20px;
+    flex-direction: column;
+
+}
+.box5{
+    font-style: 'Poppins', sans-serif;
+    display: flex;
+    text-align: start;
+    padding: 20px;
+    flex-direction: column;
+}
+
+
+.heart2{
+    height: 15px;
+    border-radius: 15px;
+    width: 20px;    
+}
+.logo1{
+    cursor: pointer;
+    height: 40px;
+}
+
+.logo2{
+    height: 15px;
+}
+
+
+.navbar{
+    width: 100%;
+    height: 40px ;
+    display: flex;
+    align-items: center;
+    background-color: black;
+    position: fixed;
+    }
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+
+
+nav ul li {
+    display: inline-block;
+    padding: 8px 8px;
+    cursor: pointer;
+    border-radius: 5px ;
+    background-color:azure; 
+    
+      
+}
+nav ul li:nth-child(1):hover {
+    background: transparent;
+}
+nav ul li:nth-child(2):hover {
+    background: rgb(231, 140, 56);
+    color: white;
+}
+
+nav ul li:nth-child(3):hover {
+        background: white;
+        color: blue;
+    }
+
+nav ul li:nth-child(4):hover {
+        background: #5ee993;
+        color: white;
+        }
+
+.navbar a{
+    color: white;
+    
+    
+    
+}
+.navbar p{
+    color: white;
+}
+.all header h1{
+    color: white;
+    text-align: center;
+}
+.navbar img{
+    
+}
+
+.all header p{
+    color: white;
+    text-align: center;
+    font-style: italic;
+    font-weight: 200;
+}
+.all header{
+    padding-bottom: 70px;
+}
+
+.all{
+    padding-top: 200px;
+    background-image: url(https://www.teahub.io/photos/full/315-3152691_awesome-earth-free-wallpaper-id-we-ve-all.jpg);
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+}
+
+
+
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+form{
+    background: black;
+    opacity: 0.8;
+    display: flex;
+    flex-direction: column;
+    padding: 2vw;
+    width: 50%;
+    border-radius: 5px;
+    color: white;
+}
+
+form button{
+    padding: 15px;
+    background: #37af65;
+    color: white;
+    font-size: 18px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    width: 150px;
+    margin: 20px auto 0;
+    border-radius: 2px;
+    width: 100%;
+}
+.foot{
+    text-align:center ;
+    color: blanchedalmond;
+}
